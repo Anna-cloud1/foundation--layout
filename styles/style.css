@@ -8,15 +8,18 @@ html {
   color: #2B292D;
 }
 
-.top-section {
-  background-color: #f3c6bd;
-  padding-top: 39px;
+.page {
+ width: 100%;
+ overflow-x: hidden;
 }
 
-.page {
+
+@media screen and (min-width: 400px) {
+ .page {
   display: flex;
   flex-direction: column;
   width: 1400px;
   margin: auto;
   min-height: 100vh;
+} 
 }
