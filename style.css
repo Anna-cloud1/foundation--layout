@@ -400,12 +400,12 @@
   font-size: 50px;
   line-height: 50px;
   letter-spacing: -0.3125px;
+  margin: 0;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
     width: 754px;
     height: 165px;
-    margin: 0;
     font-weight: 700;
     font-size: 80px;
     line-height: 78px;
@@ -414,13 +414,11 @@
   }
 }
 .headline__description {
-  margin-top: 24px;
-  margin-bottom: 0;
   width: 290px;
   height: 172px;
+  margin-bottom: 0;
   font-size: 24px;
   line-height: 34px;
-  color: #2b292d;
   z-index: 1;
 }
 @media screen and (min-width: 1400px) {
