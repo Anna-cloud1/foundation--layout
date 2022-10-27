@@ -14,6 +14,7 @@
 }
 @media screen and (min-width: 1400px) {
   .action-button {
+    padding: 0;
     width: 160px;
   }
 }
@@ -595,6 +596,7 @@
 }
 @media screen and (min-width: 1400px) {
   .audience {
+    height: 983px;
     background-color: rgba(0, 161, 198, 0.07);
     margin: auto;
     padding: 0;
@@ -673,6 +675,7 @@
 }
 @media screen and (min-width: 1400px) {
   .audience__learn-more-button {
+    padding: 0;
     margin: 0;
     margin-left: 10px;
     width: 158px;
@@ -715,6 +718,7 @@
   font-size: 22px;
   line-height: 28px;
   margin-top: 22px;
+  margin-bottom: 33px;
   text-align: center;
 }
 .user-card:hover .user-card__caption {
