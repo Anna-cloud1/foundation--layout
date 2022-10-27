@@ -722,6 +722,10 @@
   color: #fff;
 }
 
+.creators {
+  margin-right: 0;
+}
+
 * {
   box-sizing: border-box;
 }
