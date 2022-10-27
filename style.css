@@ -672,10 +672,10 @@
   border-radius: 2px;
   border: none;
   margin-top: 12px;
-  margin-bottom: 40px;
 }
 @media screen and (min-width: 1400px) {
   .audience__learn-more-button {
+    margin: 0;
     margin-left: 10px;
     width: 158px;
   }

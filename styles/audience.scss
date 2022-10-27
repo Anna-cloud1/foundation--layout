@@ -82,9 +82,9 @@ text-align: center;
     border-radius: 2px;
     border: none;
     margin-top: 12px;
-    margin-bottom: 40px;
 
    @include for-large-up {
+    margin:0;
     margin-left: 10px ;
     width: 158px;
    }
