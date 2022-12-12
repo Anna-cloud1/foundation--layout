@@ -7,10 +7,13 @@
   font-weight: 700;
   border: none;
   border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 
 .action-button {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (min-width: 1400px) {
   .action-button {
@@ -261,6 +264,7 @@
 @media screen and (min-width: 1400px) {
   .header__button {
     display: block;
+    cursor: pointer;
   }
 }
 .header__menu-button {
@@ -364,11 +368,11 @@
 
 .top-section {
   background-color: #f3c6bd;
-  padding-bottom: 35px;
 }
 @media screen and (min-width: 1400px) {
   .top-section {
     padding-top: 39px;
+    padding-bottom: 0px;
   }
 }
 
@@ -455,6 +459,8 @@
   border: none;
   border-radius: 2px;
   margin-top: 15px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 @media screen and (min-width: 1400px) {
   .headline__learn-more-button {
@@ -474,6 +480,7 @@
     width: 796px;
     height: 448px;
     margin-left: auto;
+    margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 1399px) {
@@ -520,6 +527,7 @@
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.25px;
+  text-align: center;
 }
 @media screen and (min-width: 1400px) {
   .order__title {
@@ -553,6 +561,8 @@
 @media screen and (min-width: 1400px) {
   .order__email {
     margin-top: 0;
+    text-align: left;
+    padding-left: 15px;
   }
 }
 .order__email::placeholder {
@@ -587,7 +597,7 @@
   }
 }
 .order__terms-link {
-  color: #3142c6;
+  color: #3141c5;
 }
 
 .audience {
@@ -672,6 +682,8 @@
   border-radius: 2px;
   border: none;
   margin-top: 12px;
+  cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 1400px) {
   .audience__learn-more-button {
@@ -700,18 +712,27 @@
   height: 300px;
   margin-top: 15px;
   border-radius: 8px;
+  padding-top: 22px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 1400px) {
   .user-card {
     width: 262px;
     margin: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
     margin-right: 30px;
     cursor: pointer;
   }
 }
 .user-card:hover {
-  background-color: #3141C5;
+  background-color: #3141c5;
   box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+}
+.user-card:hover__images {
+  padding: 22px;
 }
 .user-card__caption {
   font-weight: 700;
@@ -727,6 +748,11 @@
 
 .developer {
   margin-top: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .developer {
+    margin-top: 0px;
+  }
 }
 
 .creators {

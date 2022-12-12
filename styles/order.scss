@@ -37,6 +37,7 @@
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.25px;
+    text-align: center;
 
     @include for-large-up  {
         height: 48px;
@@ -72,7 +73,8 @@
 
     @include for-large-up {
       margin-top: 0;
-
+      text-align: left;
+     padding-left: 15px;
     }
 
     &::placeholder {
@@ -107,6 +109,6 @@
   }
 
   &__terms-link {
-    color: #3142c6;
+    color: $hover-link;
   }
 }
