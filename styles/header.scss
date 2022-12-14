@@ -1,20 +1,19 @@
 @import 'breakpoints.scss';
 @import 'variables.scss';
 
-
 .header {
   display: flex;
   align-items: center;
-  height: 64px;
-  width: 100%;
   background-color: $white;
+  width: 100%;
+  height: 64px;
   padding-left: 15px;
   @include for-large-up {
     display: flex;
+    background-color: $background-pink;
     width: 1140px;
     height: 62px;
     margin: auto;
-    background-color: #f3c6bd;
   }
 
   &__button {
@@ -26,12 +25,12 @@
   }
 
   &__menu-button {
+    background-color: transparent;
     width: 58px;
     height: 100%;
     border: none;
-    border-left: 1px solid #00000026;
+    border-left: 1px solid $border-line;
     margin-left: auto;
-    background-color: transparent;
 
     @include for-large-up {
       display: none;
@@ -40,9 +39,9 @@
 
   &__menu-icon {
     display: inline-block;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
     width: 18px;
     height: 13px;
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
   }
 }
 
@@ -76,7 +75,7 @@
     font-size: 20px;
     line-height: 25px;
     font-weight: 700;
-    color: #2b292d;
+    color: $text-color;
   }
 
   &__text {
@@ -97,7 +96,7 @@
 
   &__item {
     @include for-large-up {
-      color: #2b292d;
+      color: $text-color;
       text-decoration: none;
       line-height: 25px;
       font-size: 18px;
@@ -120,16 +119,16 @@
   &__arrow {
     @include for-large-up {
       display: inline-block;
-      margin-left: 11px;
       width: 8px;
       height: 5px;
       background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+      margin-left: 11px;
     }
   }
 }
 
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $background-pink;
   @include for-large-up {
     padding-top: 39px;
     padding-bottom: 0px;

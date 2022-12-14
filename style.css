@@ -12,30 +12,29 @@
 }
 @media screen and (min-width: 1400px) {
   .action-button {
-    padding: 0;
     width: 160px;
+    padding: 0;
   }
 }
 
 .learn-more-button {
   background-color: #fff;
-  color: #000000;
   width: 100%;
   height: 48px;
   font-size: 18px;
   font-weight: 700;
+  margin-top: 12px;
   border-radius: 2px;
   border: none;
-  margin-top: 12px;
   cursor: pointer;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 1400px) {
   .learn-more-button {
-    padding: 0;
+    width: 158px;
     margin: 0;
     margin-left: 10px;
-    width: 158px;
+    padding: 0;
   }
 }
 
@@ -58,10 +57,10 @@
 }
 .footer__description {
   display: none;
-  line-height: 26px;
-  font-size: 18px;
   width: 360px;
   margin-top: 30px;
+  line-height: 26px;
+  font-size: 18px;
   color: rgba(43, 41, 45, 0.6);
 }
 @media screen and (min-width: 1400px) {
@@ -72,10 +71,10 @@
 }
 .footer__line {
   width: 100%;
-  opacity: 0.1;
-  border-top: 1px solid #2b292d;
   margin: 0;
   margin-top: 40px;
+  opacity: 0.1;
+  border-top: 1px solid #2b292d;
 }
 @media screen and (min-width: 1400px) {
   .footer__line {
@@ -101,9 +100,9 @@
   .footer-navigation {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
     width: 1140px;
     height: 338px;
+    margin: 0 auto;
   }
 }
 
@@ -151,22 +150,24 @@
   width: 265px;
 }
 .nav-links__title {
+  margin: 0;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  margin: 0;
   color: rgb(43, 41, 45);
 }
 .nav-links__list {
   margin: 0;
-  padding: 0;
   margin-top: 18px;
+  padding: 0;
   color: rgba(43, 41, 45, 0.6);
 }
 .nav-links__list-item {
+  line-height: 30px;
   list-style-type: none;
   font-size: 18px;
-  line-height: 30px;
+  text-decoration: none;
+  color: rgba(43, 41, 45, 0.6);
 }
 
 .footer-links {
@@ -174,31 +175,32 @@
   flex-direction: column;
   margin-left: 15px;
   color: rgb(43, 41, 45);
+  text-decoration: none;
 }
 @media screen and (min-width: 1400px) {
   .footer-links {
-    height: 50px;
     flex-direction: row;
     align-items: center;
-    margin: 0 auto;
     width: 1140px;
+    height: 50px;
+    margin: 0 auto;
   }
 }
 
 .terms {
+  margin-top: 30px;
   line-height: 22px;
   font-size: 14px;
-  margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
   .terms {
-    line-height: 50px;
     margin: 0;
+    line-height: 50px;
   }
 }
 .terms__items {
-  text-decoration: none;
   margin-right: 22px;
+  text-decoration: none;
   color: rgba(43, 41, 45, 0.6);
 }
 @media screen and (min-width: 1400px) {
@@ -252,27 +254,27 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 auto;
     width: 1140px;
     height: 50px;
+    margin: 0 auto;
   }
 }
 
 .header {
   display: flex;
   align-items: center;
-  height: 64px;
-  width: 100%;
   background-color: #fff;
+  width: 100%;
+  height: 64px;
   padding-left: 15px;
 }
 @media screen and (min-width: 1400px) {
   .header {
     display: flex;
+    background-color: #f3c6bd;
     width: 1140px;
     height: 62px;
     margin: auto;
-    background-color: #f3c6bd;
   }
 }
 .header__button {
@@ -285,12 +287,12 @@
   }
 }
 .header__menu-button {
+  background-color: transparent;
   width: 58px;
   height: 100%;
   border: none;
   border-left: 1px solid rgba(0, 0, 0, 0.1490196078);
   margin-left: auto;
-  background-color: transparent;
 }
 @media screen and (min-width: 1400px) {
   .header__menu-button {
@@ -299,9 +301,9 @@
 }
 .header__menu-icon {
   display: inline-block;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
   width: 18px;
   height: 13px;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
 }
 
 .logo {
@@ -376,10 +378,10 @@
 @media screen and (min-width: 1400px) {
   .navigation__arrow {
     display: inline-block;
-    margin-left: 11px;
     width: 8px;
     height: 5px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+    margin-left: 11px;
   }
 }
 
@@ -394,8 +396,8 @@
 }
 
 .headline {
-  margin: 0;
   width: 100%;
+  margin: 0;
 }
 @media screen and (min-width: 1400px) {
   .headline {
@@ -418,11 +420,11 @@
   }
 }
 .headline__title {
+  margin: 0;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
   letter-spacing: -0.3125px;
-  margin: 0;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
@@ -445,10 +447,10 @@
 }
 @media screen and (min-width: 1400px) {
   .headline__description {
+    width: 456px;
+    height: 102px;
     margin-top: 34px;
     margin-bottom: 0;
-    height: 102px;
-    width: 456px;
     font-size: 24px;
     line-height: 34px;
     z-index: 1;
@@ -461,9 +463,9 @@
 }
 @media screen and (min-width: 1400px) {
   .headline__actions {
-    margin-top: 58px;
     display: flex;
     flex-direction: row;
+    margin-top: 58px;
   }
 }
 .headline__banner {
@@ -473,13 +475,17 @@
 @media screen and (min-width: 1400px) {
   .headline__banner {
     position: relative;
-    right: -105px;
-    top: 0;
     width: 796px;
     height: 448px;
     margin-left: auto;
     margin-bottom: 0px;
+    right: -105px;
+    top: 0;
   }
+}
+
+.headline__learn-more-button {
+  color: #3040c4;
 }
 
 .order {
@@ -498,8 +504,8 @@
   max-width: 555px;
 }
 .order__illustration {
-  margin-left: 35px;
   max-width: 200px;
+  margin-left: 35px;
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {
@@ -535,8 +541,8 @@
   }
 }
 .order__email {
-  height: 48px;
   width: 100%;
+  height: 48px;
   margin-top: 40px;
   background: #fff;
   border: 1px solid rgba(43, 41, 45, 0.2);
@@ -548,8 +554,8 @@
 @media screen and (min-width: 1400px) {
   .order__email {
     margin-top: 0;
-    text-align: left;
     padding-left: 15px;
+    text-align: left;
   }
 }
 .order__email::placeholder {
@@ -601,30 +607,29 @@
 }
 @media screen and (min-width: 1400px) {
   .action-button {
-    padding: 0;
     width: 160px;
+    padding: 0;
   }
 }
 
 .learn-more-button {
   background-color: #fff;
-  color: #000000;
   width: 100%;
   height: 48px;
   font-size: 18px;
   font-weight: 700;
+  margin-top: 12px;
   border-radius: 2px;
   border: none;
-  margin-top: 12px;
   cursor: pointer;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (min-width: 1400px) {
   .learn-more-button {
-    padding: 0;
+    width: 158px;
     margin: 0;
     margin-left: 10px;
-    width: 158px;
+    padding: 0;
   }
 }
 
@@ -646,11 +651,11 @@
 }
 @media screen and (min-width: 1400px) {
   .audience {
+    width: 100%;
     height: 983px;
     background-color: rgba(0, 161, 198, 0.07);
     margin: auto;
     padding: 0;
-    width: 100%;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -665,23 +670,23 @@
 .audience__title {
   margin: 0;
   font-weight: 700;
-  font-size: 22px;
   line-height: 34px;
+  font-size: 22px;
   text-align: center;
 }
 .audience__subtitle {
   margin: 0;
   margin-top: 17px;
   font-weight: 700;
-  font-size: 40px;
   line-height: 40px;
+  font-size: 40px;
   text-align: center;
   letter-spacing: -0.357143px;
 }
 @media screen and (min-width: 1400px) {
   .audience__subtitle {
-    font-size: 56px;
     margin-top: 24px;
+    font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
   }
@@ -689,8 +694,8 @@
 .audience__description {
   margin: 0;
   margin-top: 18px;
-  font-size: 24px;
   line-height: 34px;
+  font-size: 24px;
   text-align: center;
 }
 @media screen and (min-width: 1400px) {
@@ -699,17 +704,14 @@
   }
 }
 .audience__buttons {
+  width: 100%;
   padding: 0;
-}
-@media screen and (max-width: 1399px) {
-  .audience__buttons {
-    width: 100%;
-    margin-top: 30px;
-  }
+  margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
   .audience__buttons {
     margin-top: 34px;
+    margin-left: 227px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -727,12 +729,12 @@
   align-items: center;
   justify-content: center;
   background-color: #fff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #fff;
   width: 290px;
   height: 300px;
   margin-top: 15px;
-  border-radius: 8px;
   padding-top: 22px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #fff;
+  border-radius: 8px;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
@@ -755,8 +757,8 @@
 }
 .user-card__caption {
   font-weight: 700;
-  font-size: 22px;
   line-height: 28px;
+  font-size: 22px;
   margin-top: 22px;
   margin-bottom: 33px;
   text-align: center;
@@ -797,9 +799,9 @@ html {
   .page {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     width: 1400px;
     margin: auto;
-    min-height: 100vh;
   }
 }
 

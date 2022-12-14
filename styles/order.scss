@@ -10,17 +10,16 @@
     justify-content: center;
     align-items: flex-start;
     padding: 73px 0 72px 0;
-
   }
 
   &__details {
     max-width: 555px;
   }
 
-
   &__illustration {
-   margin-left: 35px;
     max-width: 200px;
+
+    margin-left: 35px;
 
     @include for-large-up {
       max-width: 269px;
@@ -28,8 +27,6 @@
       margin-right: 121px;
     }
   }
-
-
 
   &__title {
     margin-top: 40px;
@@ -39,10 +36,9 @@
     letter-spacing: -0.25px;
     text-align: center;
 
-    @include for-large-up  {
-        height: 48px;
-        margin-bottom: 12px;
-    
+    @include for-large-up {
+      height: 48px;
+      margin-bottom: 12px;
     }
   }
 
@@ -61,8 +57,8 @@
   }
 
   &__email {
-    height: 48px;
     width: 100%;
+    height: 48px;
     margin-top: 40px;
     background: $white;
     border: 1px solid rgba(43, 41, 45, 0.2);
@@ -73,8 +69,8 @@
 
     @include for-large-up {
       margin-top: 0;
+      padding-left: 15px;
       text-align: left;
-     padding-left: 15px;
     }
 
     &::placeholder {
@@ -85,14 +81,14 @@
   &__button {
     margin-top: 12px;
     @include for-down-up {
-        width: 100%;
+      width: 100%;
     }
 
     @include for-large-up {
       margin-top: 0;
       margin-left: 10px;
       flex-shrink: 0;
-       }
+    }
   }
 
   &__terms {
@@ -102,9 +98,9 @@
     color: $font-color-opacity;
 
     @include for-large-up {
-        padding: 0;
-        margin: 0;
-        margin-top: 10px;
+      padding: 0;
+      margin: 0;
+      margin-top: 10px;
     }
   }
 

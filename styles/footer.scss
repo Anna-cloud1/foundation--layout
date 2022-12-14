@@ -1,7 +1,6 @@
 @import 'breakpoints.scss';
 @import 'variables.scss';
 
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -9,11 +8,11 @@
 
   &__description {
     display: none;
+    width: 360px;
+    margin-top: 30px;
     line-height: 26px;
     font-size: 18px;
-    width: 360px; 
-    margin-top: 30px;
-    color:  $font-color-opacity;
+    color: $font-color-opacity;
     @include for-large-up {
       display: block;
       width: 360px;
@@ -22,20 +21,20 @@
 
   &__line {
     width: 100%;
-    opacity: 0.1;
-    border-top: 1px solid $text-color;
     margin: 0;
     margin-top: 40px;
+    opacity: 0.1;
+    border-top: 1px solid $text-color;
 
     @include for-large-up {
       margin: 0;
     }
   }
   .logo {
-  @include for-down-up {
-    display: none;
+    @include for-down-up {
+      display: none;
+    }
   }
-}
 }
 
 .about-company {
@@ -50,9 +49,9 @@
   @include for-large-up {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
     width: 1140px;
     height: 338px;
+    margin: 0 auto;
   }
 }
 
@@ -98,24 +97,26 @@
   width: 265px;
 
   &__title {
+    margin: 0;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    margin: 0;
     color: $main-font-color;
   }
 
   &__list {
     margin: 0;
-    padding: 0;
     margin-top: 18px;
+    padding: 0;
     color: $font-color-opacity;
   }
 
   &__list-item {
+    line-height: 30px;
     list-style-type: none;
     font-size: 18px;
-    line-height: 30px;
+    text-decoration: none;
+    color: $font-color-opacity;
   }
 }
 
@@ -123,31 +124,32 @@
   display: flex;
   flex-direction: column;
   margin-left: 15px;
- color: $main-font-color;
+  color: $main-font-color;
+       text-decoration: none;
 
   @include for-large-up {
-    height: 50px;
     flex-direction: row;
     align-items: center;
-    margin: 0 auto;
     width: 1140px;
+    height: 50px;
+    margin: 0 auto;
   }
 }
 
 .terms {
+  margin-top: 30px;
   line-height: 22px;
   font-size: 14px;
-  margin-top: 30px;
+
   @include for-large-up {
-    line-height: 50px;
     margin: 0;
+    line-height: 50px;
   }
 
   &__items {
-    text-decoration: none;
     margin-right: 22px;
+    text-decoration: none;
     color: $font-color-opacity;
-    
 
     @include for-large-up {
       text-decoration: none;
@@ -202,8 +204,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 auto;
     width: 1140px;
     height: 50px;
+    margin: 0 auto;
   }
 }
