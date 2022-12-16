@@ -46,7 +46,8 @@
 }
 
 .hide-mobile {
-  @include for-down-up {
-    display: none;
+  display: none;
+  @include for-large-up {
+    display: block;
   }
 }

@@ -80,10 +80,7 @@
 
   &__button {
     margin-top: 12px;
-    @include for-down-up {
-      width: 100%;
-    }
-
+    width: 100px;
     @include for-large-up {
       margin-top: 0;
       margin-left: 10px;
