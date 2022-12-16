@@ -1,15 +1,8 @@
 $lg: 1400px;
-$max-large: 1399px;
 
 
 @mixin for-large-up {
     @media screen and (min-width: $lg) {
-        @content;
-    }
-}
-
-@mixin for-down-up {
-    @media screen and (max-width: $max-large) {
         @content;
     }
 }
